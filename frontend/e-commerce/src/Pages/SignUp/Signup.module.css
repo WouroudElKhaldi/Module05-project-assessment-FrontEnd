@@ -1,0 +1,92 @@
+.mainContainer {
+  margin-top: 5.5rem;
+  height: 91vh;
+  display: flex;
+  justify-content: flex-start;
+}
+.pageContainer {
+  height: 100%;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 2rem;
+  align-items: center;
+}
+
+.div,
+.p,
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.title {
+  color: #c86823;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.p {
+  font-size: 1.3rem;
+}
+
+.linkPhrase {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.linkLogin {
+  color: #c86823;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-items: left;
+  /* gap: 0.1rem; */
+}
+
+.orPhrase {
+  margin: 7px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 960px) {
+  .pageContainer {
+    height: 100vh;
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pageContainer {
+    height: 100vh;
+    margin-left: 2rem;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+  .p {
+    font-size: 1rem;
+  }
+}
